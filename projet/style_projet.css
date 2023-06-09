@@ -1,0 +1,118 @@
+hr {
+    margin-top: 40px;
+}
+
+/* .gallerie {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    
+    gap: 50px;
+    padding-top: 50px;
+}  */
+
+img {
+    height: 100%;
+    width: 100%;}
+
+.gallerie {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px;
+    padding-top: 40px;
+}
+  
+footer {
+    height: 200px;
+  }
+
+
+
+
+
+
+
+.infos {
+      border: 2px solid white;
+    
+}
+
+.para_info {
+    color: gray;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#lien_mail {
+    color: gray;
+}
+
+#lien_mail:hover {
+    color: #1AD1F2;
+}
+
+#lien_tel {
+    color: gray;
+}
+
+#lien_tel:hover {
+    color: #1AD1F2;
+}
+
+#lien_adresse {
+    color: gray;
+}
+
+#lien_adresse:hover {
+    color: #1AD1F2;
+}
+
+
+
+.reseaux {
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .reseau_contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+  }
+  
+  
+  .div_reseaux_index {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+
+  
+p {
+    margin: 0;
+}
+
+.image {
+    border: 2px solid white;
+    overflow: hidden;
+}
+
+.image img {
+    width: 100%; /* Remplit l'espace disponible dans le conteneur */
+    height: 100%; /* Remplit l'espace disponible dans le conteneur */
+    transition: transform 0.3s ease; /* Ajoute une transition fluide à la propriété de transformation */
+    
+  }
+  
+  .image:hover img {
+    transform: scale(1.2); /* Applique un facteur d'échelle de 1.2 pour agrandir l'image */
+  }
+
+
+  

@@ -1,0 +1,165 @@
+.carrousel_home_page {    
+    margin-top: 80px;
+    margin-bottom: 80px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second_para_home_page {
+    margin-bottom: 80px;
+}
+
+.pic-ctn {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+   
+  }
+  
+  @keyframes display {
+    0% {
+      transform: translateX(200px);
+      opacity: 0;
+    }
+    10% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    20% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    30% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+  }
+  
+  .pic-ctn > img {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    animation: display 10s infinite;
+    top: 0;
+    left: 0;
+  }
+
+
+  
+  img:nth-child(1) {
+    animation-delay: 0s;
+  }
+  img:nth-child(2) {
+    animation-delay: 2s;
+  }
+  img:nth-child(3) {
+    animation-delay: 4s;
+  }
+  img:nth-child(4) {
+    animation-delay: 6s;
+  }
+  img:nth-child(5) {
+    animation-delay: 8s;
+  }
+
+  .footer_form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 80px;
+}
+
+.formulaire, .zone_message {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+  img {
+    width: 100%;
+  }
+
+footer {
+  height: 1000px;
+}
+
+.reseaux {
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.reseau_contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+}
+ 
+
+.div_reseaux_index {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.infos {
+  border: 2px solid white;
+
+}
+
+.para_info {
+color: gray;
+margin: 10px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+p {
+  margin: 0;
+}
+
+#lien_mail {
+  color: gray;
+}
+
+#lien_mail:hover {
+  color: #1AD1F2;
+}
+
+#lien_tel {
+  color: gray;
+}
+
+#lien_tel:hover {
+  color: #1AD1F2;
+}
+
+#lien_adresse {
+  color: gray;
+}
+
+#lien_adresse:hover {
+  color: #1AD1F2;
+}
+
+input[type="text"], [type="email"], [type="tel"] {
+  background-color: #D5D5D5;
+}
+
+textarea[type="text"] {
+  background-color: #D5D5D5;
+}
+
+

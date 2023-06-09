@@ -1,0 +1,162 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Geologica', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Largeur de la barre de défilement */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Couleur de fond de la barre de défilement */
+  ::-webkit-scrollbar-track {
+    background-color: black;
+  }
+  
+  /* Couleur de la poignée de la barre de défilement */
+  ::-webkit-scrollbar-thumb {
+    background-color: #1AD1F2;
+    border-radius: 10px;
+  }
+  
+  /* Couleur de survol de la poignée de la barre de défilement */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #f28d1a;
+  }  
+
+/* header {
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+} */
+
+
+p {
+    font-size: large;
+}
+
+.hr_header {
+    width: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 45px;
+    padding-right: 20px;
+}
+
+.navbar {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+}
+
+li {
+    margin-left: 0;
+    padding: 50px;
+    padding-top: 0;
+    padding-bottom: 30px;
+    font-size: large;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #1AD1F2;
+}
+
+hr {
+    width: 80%;
+}
+
+main {
+    padding-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
+
+  
+label {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+  
+  input,
+  textarea {
+    border-radius: 10px;
+    height: 40px;
+    border: none;
+    font-size: 100%;
+  }
+
+input::placeholder {
+    color: rgb(180, 173, 173);
+}
+
+textarea::placeholder {
+    color: rgb(180, 173, 173);
+}
+
+
+
+input:focus {
+    outline: none;
+  }
+
+textarea:focus {
+    outline: none;
+}
+
+
+
+
+
+
+
+  #message {
+    height: 150px;
+  }
+  
+  input[type="submit"] {
+    margin-top: 30px;
+    background-color: rgb(180, 173, 173);
+    transition-duration: 0.3s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #1AD1F2;
+}
+
+.fa-brands {
+    font-size: 20px;
+}
