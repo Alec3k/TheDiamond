@@ -27,7 +27,20 @@ footer {
   }
 
 
-
+  @media (max-width: 768px) {
+    .reseau_contact {
+      flex-direction: column-reverse;
+    }
+  
+    .reseaux {
+      padding-top: 50px;
+      align-items: center;
+    }
+  
+    .copyright {
+      font-size: 15px;
+    }
+  }
 
 
 

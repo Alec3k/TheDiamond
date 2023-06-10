@@ -16,12 +16,24 @@
     position: relative;
 }
 
+@media (max-width: 768px) {
+    .image_contact_page {
+    }
+}
+
   .picc-ctn {
     display: flex;
     align-content: center;
     justify-content: center;
     align-items: center;
   }
+
+@media (max-width: 768px) {
+    .image_contact_page {
+        width: 100%;
+        height: 50%;
+    }
+}
 
   .title_para_contact {
     position: absolute;
@@ -53,6 +65,7 @@ hr {
 .contact_footer {
     display: flex;
     width: 100%;
+    gap: 50px;
 }
 
 .footer_form {
@@ -96,6 +109,8 @@ input[type="text"], [type="email"], [type="tel"] {
 
 textarea[type="text"] {
     background-color: #D5D5D5;
+    font-family: 'Geologica', sans-serif;
+
 }
 
 #lien_mail {
@@ -136,4 +151,29 @@ footer {
 .div_reseaux_contact {
     display: flex;
     gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .contact_footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_form {
+        width: 100%;    
+        padding-bottom: 50px;
+    }
+
+    .reseaux {
+        padding-top: 50px;
+        align-items: center;
+      }
+    
+    .copyright {
+        font-size: 15px;
+    }
+
+    .infos {
+        margin-bottom: 46px;
+    }
 }
